@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <title>The Odin Project: Sign-Up Form</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <meta name="description" content=""/>
+
+  <style>
+    
+    main {
+      display: flex;
+      height: 100vh;
+    }
+    .background {
+      flex: 1;
+    background: url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e") no-repeat center/cover;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+    }
+    h1 {
+      font-size: 100px;
+      font-weight: bold;
+    }
+    .p1 {
+      text-align: justify;
+      margin: 10px auto;
+    }
+    .signup {
+    flex: 2;
+    background-color: #F8F9FA;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    }
+    form {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    }
+    .form {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .form-input {
+      display: flex;
+      flex-direction: column;
+      font-size: 16px;
+    }
+    label {
+      margin: 30px auto 0 auto;
+    }
+    input {
+      margin: 0 auto;
+    }
+
+  </style>
+
+</head>
+
+<body>
+ 
+  <main>
+  <div class="background">
+  
+    <img src="./resources/logo.png">
+    <h1>THE ODIN PROJECT</h1>
+  </div>
+
+  <div class="signup">
+  <p class="p1">This is not a real online service! This is just a simple Sign-Up page mock up design. 
+    Feel free to mess around with the inputs and buttons.</p>
+  <p class="p1">You Know you want to.</p>
+
+  <form>
+    <legend>Let's do this!</legend>
+    <div class="form">
+    <div class="form-input">
+              <label for="first-name">FIRST NAME</label>
+              <input type="text" id="first-name" name="first-name">
+            </div>
+
+            <div class="form-input">
+              <label for="last-name">LAST NAME</label>
+              <input type="text" id="last-name" name="last-name">
+            </div>
+
+            <div class="form-input">
+              <label for="email">EMAIL</label>
+              <input type="email" id="email" name="email">
+            </div>
+
+            <div class="form-input">
+              <label for="phone">PHONE NUMBER</label>
+              <input type="tel" id="phone" name="phone">
+            </div>
+
+            <div class="form-input">
+              <label for="password">PASSWORD</label>
+              <input type="password" id="password" name="password" required>
+            </div>
+
+            <div class="form-input">
+              <label for="confirm-password">CONFIRM PASSWORD</label>
+              <input type="password" id="confirm-password" name="confirm-password" required>
+            </div>
+    </div>
+    <button type="submit" name="createaccount" class="createaccount">Create Account</button>
+    <p>Already have an account? <a href="google.com">Log In.</a></p>
+  </form>
+
+  </div>
+
+</main>
+
+</body>
+
+</html>
