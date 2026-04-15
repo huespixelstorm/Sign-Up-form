@@ -1,0 +1,88 @@
+main {
+      display: flex;
+      height: 100vh;
+    }
+    .background {
+      flex: 1;
+    background: url("https://plus.unsplash.com/premium_photo-1722584996622-46f592165128?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") no-repeat center/cover;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+    }
+    h1 {
+      font-size: 100px;
+      font-weight: bold;
+      padding-top: auto;
+    }
+    .p1 {
+      text-align: justify;
+      margin: 50px auto 20px auto;
+      padding: 50px 50px 5px 50px;
+      font-size: 24px;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #536b78;
+    }
+    .p2 {
+      text-align: justify;
+      margin: 50px auto 20px auto;
+      padding: 1px 50px 5px 50px;
+      font-size: 24px;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #536b78;
+    }
+    .signup {
+    flex: 2;
+    background-color: #F8F9FA;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    align-items: center;
+    }
+    form {
+      text-align: justifys;
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    color: #637081;
+    }
+    legend {
+      text-align: justify;
+      font-size: 24px;
+    }
+    .form {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .form-input {
+      display: flex;
+      flex-direction: column;
+      text-align: justify;
+      font-size: 16px;
+      transform: translateX(-25%);
+      color: #637081;
+    }
+    label {
+      margin: 30px auto 0 auto;
+    }
+    input {
+      margin: 0 auto;
+      width: 250px;
+      height: 20px;
+    }
+    button {
+      background-color: #014f86;
+      color: whitesmoke;
+      font-weight: bold;
+      border-radius: 5px;
+      border: #014f86;
+      margin: auto;
+      padding: 15px 30px;
+      transform: translate(-60%, 30px);
+    }
+    .login {
+      transform: translate(-10%, 30px);
+    }
